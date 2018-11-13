@@ -31,7 +31,7 @@ export default class App extends Component<Props> {
 
 
 
-  /* 결제 후 웹뷰로 부터 메시지 수신 */
+  /* 우편번호 선택 후 웹뷰로 부터 메시지 수신 */
   onPayBridgeMessage(webViewData) {
     let jsonData = JSON.parse(webViewData);
     console.log('data received', webViewData, jsonData);
